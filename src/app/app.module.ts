@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AddBooksComponent } from './add-books/add-books.component';
 import { SearchBooksComponent } from './search-books/search-books.component';
 import { ViewBookComponent } from './view-book/view-book.component';
+import { DeleteBookComponent } from './delete-book/delete-book.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddBooksComponent,
     SearchBooksComponent,
-    ViewBookComponent
+    ViewBookComponent,
+    DeleteBookComponent
   ],
   imports: [
     BrowserModule,
